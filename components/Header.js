@@ -5,7 +5,7 @@ import {
   CollectionIcon,
   HomeIcon,
   LightningBoltIcon,
-  SearchIcon,
+  SearchIcon,  
   UserIcon,
 } from "@heroicons/react/outline";
 function Header() {
