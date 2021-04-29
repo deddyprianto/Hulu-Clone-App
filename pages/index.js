@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 import Result from "../components/Result";
 import request from "../utils/request";
 
-export default function Home({ res }) {
+export default function Home({ results }) {
   return (
     <div>
       <Head>
@@ -14,7 +14,7 @@ export default function Home({ res }) {
       {/* header */}
       <Header />
       <Nav />
-      <Result result={res} />
+      <Result result={results} />
     </div>
   );
 }
@@ -28,7 +28,7 @@ export async function getServerSideProps(context) {
   const reqData = await data.json();
   return {
     props: {
-      res: reqData,
+      results: reqData.results,
     },
   };
 }
