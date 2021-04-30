@@ -3,7 +3,8 @@ import Header from "../components/Header";
 import Nav from "../components/Nav";
 import Result from "../components/Result";
 import request from "../utils/request";
-
+import getConfig from "next/config";
+const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 export default function Home({ results }) {
   return (
     <div>
