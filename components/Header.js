@@ -5,7 +5,7 @@ import {
   CollectionIcon,
   HomeIcon,
   LightningBoltIcon,
-  SearchIcon,  
+  SearchIcon,
   UserIcon,
 } from "@heroicons/react/outline";
 function Header() {
@@ -21,7 +21,7 @@ function Header() {
       </div>
       <Image
         className="object-contain"
-        src="/img/hulu.png"
+        src="/hulu.png"
         width={200}
         height={100}
       />
