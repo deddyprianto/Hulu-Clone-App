@@ -1,19 +1,19 @@
 const API_KEY = "f797e2cf0bb90660383d12fa045c15e6";
 export default {
   fetchTrending: {
-    title: "Trending",
+    title: "Film Terbaru",
     url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   },
   fetchTopRated: {
-    title: "Top Rated",
+    title: "Film Rating Tertinggi",
     url: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
   },
   fetchMovieActions: {
-    title: "Action",
+    title: "Film Actions",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
   },
   fetchComedyMovies: {
-    title: "Comedy",
+    title: "Film Comedi",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
   },
   fetchHororMovies: {
@@ -21,11 +21,11 @@ export default {
     url: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
   },
   fetchRomanceMovies: {
-    title: "Romance",
+    title: "Romantis",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   },
   fetchMystery: {
-    title: "Mystery",
+    title: "Mistery",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
   },
   fetchSciFi: {
